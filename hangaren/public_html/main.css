@@ -36,13 +36,34 @@
 nav{
     height: 100px;
     outline: thin solid red;
+    height: 35px;
+    margin-top: 20px;
     
+}
+#navundan{
+    margin-left: 0px;
+}
+ul{
+    padding: 0;
+    height: 35px;
+    margin-left: 190px;
 }
 nav ul li{
     list-style-type: none;
+    float: left;
+    width: 100px;
+    height: 35px;
+    outline: thin solid green;
+    text-align: center;
+    
+    display: block;
 }
 nav ul li a{
     color: black;
+    display: block;
+    padding-top: 8px;
+    height: 100%;
+    
 }
 nav ul li a:hover{
     text-decoration: none;
