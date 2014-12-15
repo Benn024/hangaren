@@ -1,7 +1,14 @@
+body{
+    background: url(img/skateboard.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 #wrapper{
     width: 1080px;
     margin: 0 auto;
-    background-color: red;
+    background-color: black;
     height: 100px;
     border-bottom: 3px solid black;
 }
@@ -13,9 +20,13 @@
     margin-top: 37px;
     margin-right: 20px;
 }
+section{
+    background-color: black;
+}
 .upper-section{
     overflow: auto;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
+    background-color: black;
 }
 .right-section{
     width: 69px;
@@ -36,12 +47,14 @@
 nav{
     height: 100px;
     outline: thin solid red;
-    height: 35px;
-    margin-top: 20px;
-    
+    height: 55px;
+    padding-top: 20px;
+    background-color: black;
 }
 #navundan{
+    border-top-left-radius: 5px;
     margin-left: 0px;
+    background-color: white;
 }
 ul{
     padding: 0;
@@ -53,9 +66,9 @@ nav ul li{
     float: left;
     width: 100px;
     height: 35px;
-    outline: thin solid green;
+/*    outline: thin solid green;*/
     text-align: center;
-    
+    background-color: grey;
     display: block;
 }
 nav ul li a{
@@ -68,4 +81,36 @@ nav ul li a{
 nav ul li a:hover{
     text-decoration: none;
     color: black;
+    background-color: white;
+    
+}
+.section-tf{
+    outline: thin solid blue;
+    background-color: black;
+}
+.section-tf img{
+  margin-bottom: 20px;
+  margin-left: 13%;
+}
+.section-tf p{
+    width: 200px;
+    margin-left: 13%;
+}
+footer{
+    overflow: auto;
+    /*margin-top: 40px;*/
+    border-top: 3px solid black;
+    padding-left: 5.5%;
+    background-color: black;
+}
+.obs{
+    float: left;
+    margin-right: 45px;
+}
+.obs-ruta{
+    margin-left: 40px;
+    margin-top: 38px; 
+}
+.obs-right{
+    margin-top: 0px; 
 }
