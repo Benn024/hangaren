@@ -8,9 +8,13 @@ body{
 #wrapper{
     width: 1080px;
     margin: 0 auto;
-    background-color: black;
+    background-color: #545454;
     height: 100px;
     border-bottom: 3px solid black;
+    margin-top: 20px;
+}
+header{
+    border-bottom: 3px solid white;
 }
 #wrapper img{
     padding-top: 15px;
@@ -31,12 +35,11 @@ section{
 .right-section{
     width: 69px;
     float: left;
-    margin-left: 30px;
-    
+    margin-left: 35px;
+    color: white;
 }
 .right-section img{
     margin-bottom: 20px;
-    outline: thin solid red;
 }
 .right-section h3{
     margin-left: 25px;
@@ -45,16 +48,25 @@ section{
     float: left;
 }
 nav{
-    height: 100px;
-    outline: thin solid red;
+    height: 100px;  
     height: 55px;
     padding-top: 20px;
     background-color: black;
 }
-#navundan{
+#sist{
+    border-top-right-radius: 5px;
+}
+#sist:hover a{
+    border-top-right-radius: 5px;
+}
+#navundan a{
     border-top-left-radius: 5px;
     margin-left: 0px;
     background-color: white;
+    border-left: none;
+}
+#navundan:hover a{
+    border-top-left-radius: 5px;
 }
 ul{
     padding: 0;
@@ -70,6 +82,9 @@ nav ul li{
     text-align: center;
     background-color: grey;
     display: block;
+    border-left: thin solid black;
+    border-bottom: thin solid black;
+    
 }
 nav ul li a{
     color: black;
@@ -85,8 +100,8 @@ nav ul li a:hover{
     
 }
 .section-tf{
-    outline: thin solid blue;
-    background-color: black;
+    /*outline: thin solid blue;*/
+    background-color: #545454;
 }
 .section-tf img{
   margin-bottom: 20px;
@@ -95,11 +110,13 @@ nav ul li a:hover{
 .section-tf p{
     width: 200px;
     margin-left: 13%;
+    color: white;
 }
 footer{
+    border-top: 3px solid white;
     overflow: auto;
     /*margin-top: 40px;*/
-    border-top: 3px solid black;
+    /*border-top: 3px solid black;*/
     padding-left: 5.5%;
     background-color: black;
 }
