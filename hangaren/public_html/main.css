@@ -1,17 +1,22 @@
 body{
-    background: url(img/skateboard.jpg) no-repeat center center fixed;
+/*    background: url(img/skateboard.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
 }
 #wrapper{
+/*    width: 1080px;
+    margin: 0 auto;*/
+    background-color: black;
+/*    height: 100px;
+    border-bottom: 3px solid black;
+    margin-top: 20px;*/
+}
+.margin{
     width: 1080px;
     margin: 0 auto;
-    background-color: #545454;
-    height: 100px;
-    border-bottom: 3px solid black;
-    margin-top: 20px;
+    
 }
 header{
     border-bottom: 3px solid white;
@@ -113,12 +118,14 @@ nav ul li a:hover{
     color: white;
 }
 footer{
+    margin-top: 15px;
     border-top: 3px solid white;
     overflow: auto;
     /*margin-top: 40px;*/
     /*border-top: 3px solid black;*/
-    padding-left: 5.5%;
+    padding-left: 8.5%;
     background-color: black;
+    color: white;
 }
 .obs{
     float: left;
