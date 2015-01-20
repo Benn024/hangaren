@@ -4,6 +4,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;*/
+    overflow-x: hidden;
 }
 #wrapper{
 /*    width: 1080px;
@@ -12,6 +13,7 @@ body{
 /*    height: 100px;
     border-bottom: 3px solid black;
     margin-top: 20px;*/
+    
 }
 .margin{
     width: 1080px;
@@ -137,4 +139,16 @@ footer{
 }
 .obs-right{
     margin-top: 0px; 
+}
+#bil{
+    z-index: 40;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 10px;
+    /*margin-bottom: -40px;*/
+    /*padding-top: 850px;*/
+    right: -500px;
+    //margin-left: 100%;
+    /*display: none;*/
+    
 }
