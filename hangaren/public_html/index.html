@@ -17,7 +17,9 @@
                     console.log("go");
 //                    $("#bil").hide();
                     $("#bil").animate({"right": '+=130%'}, 2000, 'linear', function(){
-                        $('img/sideview.png').position({"right": '+=130%'}, 0);
+                        console.log("callback körs");
+//                        $("#bil").offset({ top: 100, left: 1150});
+                        $("#bil").animate({"right": '-=130%'}, 1, 'linear');
                     });                   
                 });
                                 

@@ -90,7 +90,7 @@ nav ul li{
     background-color: grey;
     display: block;
     border-left: thin solid black;
-    border-bottom: thin solid black;
+    /*border-bottom: thin solid black;*/
     
 }
 nav ul li a{
