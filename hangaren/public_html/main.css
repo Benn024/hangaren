@@ -7,12 +7,10 @@ body{
     overflow-x: hidden;
 }
 #wrapper{
-/*    width: 1080px;
-    margin: 0 auto;*/
-    background-color: black;
-/*    height: 100px;
-    border-bottom: 3px solid black;
-    margin-top: 20px;*/
+    background: -moz-linear-gradient(left, black, #383838);
+    background: -o-linear-gradient(left, black, #383838);
+    background: -webkit-linear-gradient(left, black, #383838);
+    background: linear-gradient(left, black, #383838);
     
 }
 .margin{
@@ -21,7 +19,7 @@ body{
     
 }
 header{
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid orange;
 }
 #wrapper img{
     padding-top: 15px;
@@ -32,7 +30,10 @@ header{
     margin-right: 20px;
 }
 section{
-    background-color: black;
+    background: -moz-linear-gradient(left, black, #383838);
+    background: -o-linear-gradient(left, black, #383838);
+    background: -webkit-linear-gradient(left, black, #383838);
+    background: linear-gradient(left, black, #383838);
 }
 .upper-section{
     overflow: auto;
@@ -58,7 +59,10 @@ nav{
     height: 100px;  
     height: 55px;
     padding-top: 20px;
-    background-color: black;
+    background: -moz-linear-gradient(left, black, #383838);
+    background: -o-linear-gradient(left, black, #383838);
+    background: -webkit-linear-gradient(left, black, #383838);
+    background: linear-gradient(left, black, #383838);
 }
 #sist{
     border-top-right-radius: 5px;
@@ -71,6 +75,7 @@ nav{
     margin-left: 0px;
     background-color: white;
     border-left: none;
+    color: black;
 }
 #navundan:hover a{
     border-top-left-radius: 5px;
@@ -94,7 +99,7 @@ nav ul li{
     
 }
 nav ul li a{
-    color: black;
+    color: white;
     display: block;
     padding-top: 8px;
     height: 100%;
@@ -102,8 +107,8 @@ nav ul li a{
 }
 nav ul li a:hover{
     text-decoration: none;
-    color: black;
-    background-color: white;
+    color: orange;
+    background-color: black;;
     
 }
 .section-tf{
@@ -121,12 +126,15 @@ nav ul li a:hover{
 }
 footer{
     margin-top: 15px;
-    border-top: 3px solid white;
+    border-top: 3px solid orange;
     overflow: auto;
     /*margin-top: 40px;*/
     /*border-top: 3px solid black;*/
     padding-left: 8.5%;
-    background-color: black;
+    background: -moz-linear-gradient(left, black, #383838);
+    background: -o-linear-gradient(left, black, #383838);
+    background: -webkit-linear-gradient(left, black, #383838);
+    background: linear-gradient(left, black, #383838);
     color: white;
 }
 .obs{
@@ -151,4 +159,16 @@ footer{
     //margin-left: 100%;
     /*display: none;*/
     
+}
+#go{
+    width: 65px;
+    height: 26px;
+    background-color: grey;
+    border: grey;
+    color: white;
+}
+#go:hover{
+    background-color: black;
+    border: thin solid orange;
+    color: orange;
 }
